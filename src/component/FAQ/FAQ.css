@@ -1,0 +1,23 @@
+.faq  {
+
+    margin-top: 50px;
+}
+.faq h2 {
+    text-align: center;
+    color: var(--mainColor);
+    font-size: 53px;
+    font-weight: 600;
+    margin-bottom: 60px;
+
+
+}
+.faq h5 {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+}
+.faq p {
+    color: rgb(82, 82, 82);
+    font-size: 17px;
+    font-weight: 500;
+}

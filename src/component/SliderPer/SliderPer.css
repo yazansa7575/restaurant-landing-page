@@ -1,0 +1,59 @@
+.SliderPer {
+    background-color: #A82C48;
+    margin-top: 80px;
+    text-align: center;
+    padding: 2%;
+}
+
+.SliderPer h2 {
+    color: white;
+    font-size: 58px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.SliderPer .MyCarouselItem {
+    border-radius: 10px;
+    background-color: white;
+    padding: 60px 10px;
+    text-align: center;
+}
+
+.SliderPer .MyCarouselItem>div {
+    width: 82px;
+    height: 82px;
+    margin: 2% auto;
+    margin-top: 0 !important;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.SliderPer .MyCarouselItem>div img {
+    width: 100%;
+
+}
+
+.SliderPer .MyCarouselItem h4 {
+    font-weight: 300;
+    width: 70%;
+    margin: auto;
+}
+
+.SliderPer .MyCarouselItem p {
+    margin: auto;
+    width: 100%;
+    font-size: 18px;
+    color: var(--mainColor);
+    font-weight: 500;
+
+}
+
+.carousel-indicators button {
+    background-color: black !important;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span{
+    background-color: black !important;
+    border-radius:20%;
+}

@@ -1,0 +1,105 @@
+.ExploreOurFoods {
+    margin-top: 50px;
+    overflow: hidden;
+    max-width: 100%;
+    text-align: center;
+}
+
+.ExploreOurFoods .row-1 {
+    margin-bottom: 80px;
+}
+
+.ExploreOurFoods h2 {
+    max-width: 100%;
+    font-size: 43px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #A92D48
+}
+
+.ExploreOurFoods p {
+    max-width: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424141;
+    line-height: 35px;
+}
+
+/* row-2 */
+.ExploreOurFoods .row-2 {
+    margin-bottom: 50px;
+}
+
+.ExploreOurFoods .row-2 .card {
+    border: none !important;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: left;
+
+}
+.ExploreOurFoods .row-2 .card img{
+    max-width: 100%;
+}
+.ExploreOurFoods .row-2 .card h3{
+    color: black;
+    font-size: 25px;
+    margin-top: 11px !important ;
+    margin-bottom: 0 !important ;
+}
+.ExploreOurFoods .row-2 .card p{
+    display:block !important;
+    width: 100%;
+    color: rgb(85, 85, 85);
+    font-size: 17px;
+    margin: 0 !important;
+}
+
+.ExploreOurFoods .row-2 .card .price {
+    color: var(--mainColor) ;
+    font-size: 33px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.474);
+    padding-bottom: 20px;
+    margin-right: 20px !important;
+
+}
+.ExploreOurFoods .row-2 .card .price del{
+    color: rgb(85, 85, 85) !important;
+
+}
+.ExploreOurFoods .row-2 .card .price span{
+    color: rgb(85, 85, 85) !important;
+    font-size: 28px;
+}
+.ExploreOurFoods button {
+    margin: 20px 0;
+    background-color: var(--mainColor);
+    width: 140px;
+    padding: 6px 0;
+    border: 2px solid var(--mainColor);
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.ExploreOurFoods button:hover {
+    background-color: transparent;
+}
+
+.ExploreOurFoods button:hover a {
+    color: var(--mainColor);
+}
+
+.ExploreOurFoods button a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+

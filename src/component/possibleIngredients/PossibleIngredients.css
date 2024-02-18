@@ -1,0 +1,64 @@
+.PossibleIngredients {
+    margin-top: 50px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.PossibleIngredients img {
+    max-width: 100%;
+    border-radius: 6px;
+
+}
+
+.PossibleIngredients h2 {
+    max-width: 80%;
+    margin-top: 8%;
+    font-size: 43px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--mainColor);
+}
+
+.PossibleIngredients p {
+    max-width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424141;
+    line-height: 35px;
+}
+.PossibleIngredients ul {
+    margin-bottom: 30px;
+}
+.PossibleIngredients ul li {
+    list-style-type:disc;
+    font-size: 19px;
+}
+
+.PossibleIngredients button {
+    background-color: var(--mainColor);
+    width: 140px;
+    padding: 6px 0;
+    border-radius: 6px;
+    border: 2px solid var(--mainColor);
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.PossibleIngredients button:hover {
+    background-color: transparent;
+}
+
+.PossibleIngredients button:hover a {
+    color: var(--mainColor);
+}
+
+.PossibleIngredients button a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}

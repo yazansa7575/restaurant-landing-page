@@ -1,0 +1,21 @@
+.NumberCounetr {
+    background-color: var(--mainColor);
+    padding-top: 23px ;
+    text-align: center;
+}
+.NumberCounetr .col-md-3{
+    margin-bottom: 23px !important;
+}
+
+.NumberCounetr h3,
+.NumberCounetr p {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 !important;
+}
+.NumberCounetr p{
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}

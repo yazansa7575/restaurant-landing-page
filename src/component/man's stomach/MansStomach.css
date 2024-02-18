@@ -1,0 +1,58 @@
+.MansStomach {
+    background-image: url(../../assets/image/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    text-align: center;
+    padding: 5% 0;
+
+}
+
+.MansStomach h2 {
+    max-width: 100%;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--mainColor);
+}
+
+.MansStomach p {
+    max-width: 80%;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    color: #424141;
+    font-weight: 400;
+}
+
+.MansStomach button {
+    background-color: var(--mainColor);
+    width: max-content;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid var(--mainColor);
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.MansStomach button:hover {
+    background-color: transparent;
+}
+
+.MansStomach button:hover a {
+    color: var(--mainColor);
+}
+
+.MansStomach button a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

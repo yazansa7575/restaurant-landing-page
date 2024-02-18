@@ -1,0 +1,51 @@
+:root {
+    --mainColor: #A82C48
+}
+
+
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    /* box-shadow: 1px 0 7px rgba(0, 0, 0, 0.438) ; */
+    transition: all .2s ease;
+    height: max-content;
+    /* position: fixed !important; */
+    top: 0;
+    left: 0 ;
+}
+
+.navbar .imageFather {
+    max-width: max-content;
+}
+
+.navbar .nav {
+    justify-content: right;
+    width: 100%;
+}
+
+
+.navbar a {
+    color: var(--mainColor);
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 30px;
+}
+
+.navbar .phone-number {
+    color: white;
+    padding: 10px 12px;
+    font-weight: bold;
+    background-color: var(--mainColor);
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    border: 2px var(--mainColor) solid ;
+    width: max-content;
+
+}
+
+.navbar .phone-number:hover {
+    color: var(--mainColor);
+    background-color: transparent;
+
+}
+
